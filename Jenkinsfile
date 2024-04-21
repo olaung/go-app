@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git(url: 'https://github.com/olaung/go-app', branch: 'master')
+        git(url: 'https://github.com/olaung/go-app.git', branch: 'master')
       }
     }
 
