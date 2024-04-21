@@ -16,6 +16,6 @@ pipeline {
 
   }
   tools {
-    go 'go'
+    go 'Go 1.22.1'
   }
 }
